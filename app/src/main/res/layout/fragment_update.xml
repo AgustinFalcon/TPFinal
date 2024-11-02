@@ -9,7 +9,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AGREGUE UN USUARIO!"
+        android:text="EDITAR"
         android:textSize="32dp"
         android:textAlignment="center"
         android:textStyle="italic"
@@ -54,15 +54,30 @@
 
 
     <Button
-        android:id="@+id/btnAddUser"
+        android:id="@+id/btnUpdateUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
+        android:text="Update"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etAge"
+        android:layout_margin="32dp"/>
+
+
+    <Button
+        android:id="@+id/btndeleteUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUpdateUser"
         android:layout_margin="32dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
